@@ -25,8 +25,9 @@ provider:
 
 functions:
   hello:
-    handler: handler.hello
+    handler: routes.hello
     events:
       - http:
           path: hello
           method: get
+          cors: true
