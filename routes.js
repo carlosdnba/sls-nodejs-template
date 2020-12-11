@@ -1,3 +1,3 @@
-import Controller from './src/controllers/Controller';
+import Routes from './src/controllers/routes';
 
-export const hello = Controller.hello;
+export const hello = Routes.Hello;
