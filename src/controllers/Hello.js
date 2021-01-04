@@ -1,4 +1,4 @@
-const Hello = async (event, context) => {
+export default async (event, context) => {
   return {
     statusCode: 200,
     body: JSON.stringify({
@@ -7,5 +7,3 @@ const Hello = async (event, context) => {
     }),
   };
 };
-
-export default Hello;
